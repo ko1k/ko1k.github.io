@@ -1,1 +1,227 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
+<html>
+
+ <head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <title>Лабораторная 1</title>
+
+ </head>
+
+  <body background ="https://st2.depositphotos.com/1269993/6803/i/950/depositphotos_68032989-stock-photo-grey-recycled-paper-texture-with.jpg">
+
+ <body>
+
+  <div class="align_center" align="center">
+
+  <h1></h1>
+
+  <h3></h3>
+
+ </div>
+
+   <h3><big>1. Идентификатор прецедента</big></h3>
+
+   <p><span style="background-color: #696969; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; "><big>Автоматизация процесса принятия заказа</big></span>&nbsp</p>
+
+  <h3><big>2. Название прецедента</big></h3>
+
+   <p><span style="background-color: #696969; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; "><big>Осуществление заказа с участием ПО</big></span>&nbsp</p>
+
+  <h3><big>3. Контекст</big></h3>
+
+  <p><span style="background-color: #696969; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; "><big>Система управления заведением</big></span>&nbsp</p>
+
+  <h3><big>4. Участники (actors) и цели (goals)</big></h3>
+
+  <table border="1" cellpadding="1" cellspacing="1" style="width:500px; background-color: #696969; color: #fff">
+
+	<thead>
+
+		<tr>
+
+			<th scope="col">Участник</th>
+
+			<th scope="col">Категория</th>
+
+			<th scope="col">Цель</th>
+
+		</tr>
+
+	</thead>
+
+	<tbody>
+
+		<tr>
+
+			<td>Разработчик</td>
+
+			<td>Основной</td>
+
+			<td>Разработка ПО для автоматизации принятия заказа и удовлетворение требований заказчика</td>
+
+			
+
+		</tr>
+
+		<tr>
+
+			<td>Заказчик</td>
+
+			<td>Внешний</td>
+
+			<td>Предоставить требования к ПО</td>
+
+		</tr>
+
+		<tr>
+
+			<td>Официант</td>
+
+			<td>Вшнешний</td>
+
+			<td>Принятие заказов</td>
+
+		</tr>
+    
+    <tr>
+     
+
+      <td>Гость</td>
+
+			<td>Внешний</td>
+
+			<td>Получение заказа</td>
+	
+
+		</tr>
+		
+    <tr>
+
+			<td>Среда разрабоки системы</td>
+
+			<td>Инструмент</td>
+
+			<td>Предоставить инструменты разработки системы</td>
+
+				</tr>
+
+	</tbody>
+
+</table>
+
+  <h3><big>5. Предусловия (pre-conditions)</big></h3>
+
+	 <ul>
+
+<li><p><span style="background-color: #696969; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; "><big> Сформированы требования заказчика</big></span>&nbsp</p></li>	 
+
+ <li><p><span style="background-color: #696969; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; "><big> Подготовлен набор инструментов</big></span>&nbsp</p></li>
+
+	 </ul>
+
+	 
+
+  <h3><big>6. Постусловия (post-conditions)</big></h3>
+
+	 <ul>
+
+<li><p><span style="background-color: #696969; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; "><big>Разработана БД</big></span>&nbsp</p></li>	 
+
+ <li><p><span style="background-color: #696969; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; "><big>Реализована возможность обращения к БД</big></span>&nbsp</p></li>
+
+ <li><p><span style="background-color: #696969; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; "><big>Заказчик удовлетворен</big></span>&nbsp</p></li>
+
+	 </ul>
+
+  <h3><big>7. Основной поток (main flow)</big></h3>
+
+	 <table border="1" cellpadding="1" cellspacing="1" style="width:500px; background-color: #696969; color: #fff">
+
+	<thead>
+
+		<tr>
+
+			<th scope="col">Участник</th>
+
+			<th scope="col">Действие</th>
+
+			<th scope="col">Ожидаемый резульат</th>
+
+		</tr>
+
+	</thead>
+
+	<tbody>
+
+		<tr>
+
+			<td>Аналитик</td>
+
+			<td>Составляет ТЗ по требованиям</td>
+
+			<td>Готовое ТЗ</td>
+
+		</tr>
+
+		<tr>
+
+			<td>Проектировщик</td>
+
+			<td>Проектирование БД</td>
+
+			<td>Концепт БД</td>
+
+		</tr>
+
+		<tr>
+
+			<td>Разработчик</td>
+
+			<td>Реализация БД в СУБД</td>
+
+			<td>готовая БД</td>
+
+		</tr>
+
+		<tr>
+
+			<td>Разработчик</td>
+
+			<td>Написание запросов к БД</td>
+
+			<td>Готовая для использования простого пользователя БД</td>
+
+		</tr>
+
+	</tbody>
+
+</table>
+
+  <h3><big>8. Исключения (exceptions)</big></h3>
+
+	  <ul>
+
+<li><p><span style="background-color: #696969; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; "><big> Недостаточная компетенция разработчика для реализации</big></span>&nbsp</p></li>	 
+
+ <li><p><span style="background-color: #696969; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; "><big> Отмена заказа заказчиком</big></span>&nbsp</p></li>
+
+	 </ul>
+
+  <h3><big>9.Альтернативы (alternates)</big></h3>
+
+     <p><span style="background-color: #696969; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; "><big>Изменение требований заказчиком</big></span>&nbsp</p>
+
+  <!-- Комментарий -->
+
+	  <h3><big>Use Case диаграмма:</big></h3>
+
+  <p><img src="LR1.png" alt="Use Case диаграмма"></p>
+
+  
+
+ </body>
+
+</html>
